@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Leckeres Muffin-Rezept für einen Blog mit Nährwertangaben und Bewertung.">
+    <title>Muffin Rezept Blog</title>
+</head>
+    <header>
+        <h1>Muffin Rezepte Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="ueber-mich.html">Über mich</a></li>
+                <li><a href="styled-index.html">Gestylte Version</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <section>
+        <h2>Leckere Blaubeer-Muffins</h2>
+        <img src="../assets/muffin.jpg" alt="Leckere Blaubeer-Muffins" width="300">
+        <p>Diese saftigen Blaubeer-Muffins sind perfekt für einen gemütlichen Nachmittag oder zum Frühstück.</p>
+
+        <h3>Zutaten:</h3>
+        <ul>
+            <li>200g Mehl</li>
+            <li>100g Zucker</li>
+            <li>2 TL Backpulver</li>
+            <li>1 Prise Salz</li>
+            <li>1 Ei</li>
+            <li>100ml Milch</li>
+            <li>50ml Pflanzenöl</li>
+            <li>150g frische Blaubeeren</li>
+        </ul>
+
+        <h3>Zubereitung:</h3>
+        <ol>
+            <li>Den Ofen auf 180°C vorheizen und eine Muffinform einfetten oder mit Papierförmchen auslegen.</li>
+            <li>Mehl, Zucker, Backpulver und Salz in einer Schüssel vermischen.</li>
+            <li>In einer anderen Schüssel das Ei, die Milch und das Öl verrühren.</li>
+            <li>Die flüssigen Zutaten zu den trockenen geben und alles kurz verrühren.</li>
+            <li>Blaubeeren vorsichtig unterheben.</li>
+            <li>Den Teig in die Muffinform füllen und für 20-25 Minuten backen, bis die Muffins goldbraun sind.</li>
+        </ol>
+
+        <h3>Nährwertangaben (pro Muffin):</h3>
+        <table border="1">
+            <tr>
+                <th>Nährwert</th>
+                <th>Menge</th>
+            </tr>
+            <tr>
+                <td>Kalorien</td>
+                <td>150 kcal</td>
+
+            </tr>
+            <tr>
+                <td>Fett</td>
+                <td>7 g</td>
+            </tr>
+            <tr>
+                <td>Kohlenhydrate</td>
+                <td>20 g</td>
+            </tr>
+            <tr>
+                <td >Eiweiß</td>
+                <td>3 g</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h3>Bewertung</h3>
+        <form action="/bewertung" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="bewertung">Bewertung (1-5):</label><br>
+            <select id="bewertung" name="bewertung">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            </select>
+            <label for="kommentar">Kommentar:</label><br>
+            <textarea id="kommentar" name="kommentar" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Bewertung abschicken">
+        </form>
+    </section>
+    </main>
+</body>
+
+</html>
