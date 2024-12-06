@@ -1,0 +1,24 @@
+a {
+  color: blue;
+}
+
+/* Internal links, beginning with "#" */
+a[href^="#"] {
+  background-color: gold;
+}
+
+/* Links with "example" anywhere in the URL */
+a[href*="example"] {
+  background-color: silver;
+}
+
+/* Links that end in ".org" */
+a[href$=".org"] {
+  color: red;
+}
+
+/* Links that start with "https://" and end in ".org" */
+a[href^="https://"][href$=".org"]
+{
+  color: green;
+}
