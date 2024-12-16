@@ -1,0 +1,24 @@
+
+div {
+    position: fixed; /* Das Element soll nicht mitscrollen*/ 
+    top: 50%; /* Das Element soll auf der Hälfte der Viewport-Höhe platziert werden*/ 
+    left: 20px; /* Das Element soll 20 px links vom Rand abstehen */ 
+    width: 30%;
+    height: 100px;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: black;
+    border: 1px solid aliceblue;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+h1, p {
+    margin-left: 20%; /* Der linke Außenabstand beträgt 20% der Breite 
+    des umgebenden Elements (parent container) */
+}

@@ -1,0 +1,20 @@
+  /* Layout für Mobilgeräte */
+        @media (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+
+        /* Layout für Tablets */
+        @media (min-width: 601px) and (max-width: 900px) {
+            body {
+                background-color: lightgreen;
+            }
+        }
+
+        /* Layout für Desktops */
+        @media (min-width: 901px) {
+            body {
+                background-color: orange; 
+            }
+        }

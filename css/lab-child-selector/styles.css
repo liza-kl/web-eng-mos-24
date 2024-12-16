@@ -1,0 +1,11 @@
+span {
+  background-color: aqua;
+}
+
+div span { /* Selektiert alle Nachfahren (nicht nur Kinder!) */ 
+    background-color: red; 
+}
+
+div > span { /* Alle Kinder eines <div> (also 1. Nachfahrenebene)*/ 
+  background-color: yellow; 
+}

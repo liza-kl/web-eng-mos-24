@@ -1,0 +1,26 @@
+@import url(reset.css);
+
+html, body {
+    position: relative;
+    height: 100%;
+}
+#container {
+    background-color: #c54bbc;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    position: relative;
+    border-radius: 5px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#child {
+    background-color: #ffd8f0;
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+}
