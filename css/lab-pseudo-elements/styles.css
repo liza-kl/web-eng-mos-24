@@ -1,0 +1,8 @@
+cite::before {
+    content: "Eine Weisheit aus dem Marvel Universum: ";
+    color: pink;
+}
+
+cite::after {
+  content: url("./assets/lightbulb.svg");
+}
